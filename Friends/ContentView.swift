@@ -17,16 +17,7 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            List(results) { user in
-                NavigationLink(destination: UserView(user: user)) {
-                    VStack(alignment: .leading) {
-                        Text(user.name ?? "Missing Name")
-                            .bold()
-                        Text("Company: \(user.company ?? "Missing Company")")
-                        Text(user.address ?? "Cant find")
-                    }
-                }
-            }
+            FilteredView(filter: filter)
             .onAppear(perform: {
                 jsonModel.loadData(context: moc)
             })
