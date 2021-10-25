@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		924498492723E98D00D1B5F3 /* FilteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924498482723E98D00D1B5F3 /* FilteredView.swift */; };
 		926B5EC926B4E91300E35CE1 /* UserData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B5EC726B4E91300E35CE1 /* UserData+CoreDataClass.swift */; };
 		926B5ECA26B4E91300E35CE1 /* UserData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B5EC826B4E91300E35CE1 /* UserData+CoreDataProperties.swift */; };
 		9270F6E326B8EB3A001F9282 /* UserFriend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9270F6E126B8EB3A001F9282 /* UserFriend+CoreDataClass.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		924498482723E98D00D1B5F3 /* FilteredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredView.swift; sourceTree = "<group>"; };
 		926B5EC726B4E91300E35CE1 /* UserData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserData+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		926B5EC826B4E91300E35CE1 /* UserData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserData+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		9270F6E126B8EB3A001F9282 /* UserFriend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserFriend+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
@@ -76,6 +78,7 @@
 				926B5EC826B4E91300E35CE1 /* UserData+CoreDataProperties.swift */,
 				92F543B426A8D7670005D859 /* FriendsApp.swift */,
 				92F543B626A8D7670005D859 /* ContentView.swift */,
+				924498482723E98D00D1B5F3 /* FilteredView.swift */,
 				92F543C726A93ACC0005D859 /* UserView.swift */,
 				92DC048726B1BDC90020250D /* JSONView.swift */,
 				92DC048526B1BCE80020250D /* Persistence.swift */,
@@ -168,6 +171,7 @@
 				92DC048426B1BCA40020250D /* Friends.xcdatamodeld in Sources */,
 				92F543B726A8D7670005D859 /* ContentView.swift in Sources */,
 				9270F6E426B8EB3A001F9282 /* UserFriend+CoreDataProperties.swift in Sources */,
+				924498492723E98D00D1B5F3 /* FilteredView.swift in Sources */,
 				92DC048826B1BDC90020250D /* JSONView.swift in Sources */,
 				92F543B526A8D7670005D859 /* FriendsApp.swift in Sources */,
 				926B5EC926B4E91300E35CE1 /* UserData+CoreDataClass.swift in Sources */,
