@@ -38,12 +38,6 @@ struct ContentView: View {
             })
         }
     }
-    /*
-    init() {
-        UITableView.appearance().backgroundColor = .cyan
-        UITableViewCell.appearance().backgroundColor = .cyan
-    }
-    */
 }
 
 struct ContentView_Previews: PreviewProvider {
