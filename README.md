@@ -1,7 +1,11 @@
 # FriendsApp
-Challenge "Friend Face" iOS application done as part of Hacking with SwiftUI coursework: https://www.hackingwithswift.com/100/swiftui
+Challenge "Friends Face" iOS application done as part of the 100 Days of SwiftUI coursework: https://www.hackingwithswift.com/100/swiftui
 
 # Description
 This SwiftUI application fetches and shows randomly generated data for example users.
-The apps includes: fetching data from the network, decoding it into native Swift types,  displaying it using a navigation view and storing it using CoreData.
+The app implements: URLSession, Codable, NavigationView, List, ObservableObject and dynamically filtering @FetchRequest.
 
+<img src="ContentView.png" width="250" height="475"/>    <img src="UserView.png" width="250" height="475"/>
+
+# Requirements
+iOS 14.0+
